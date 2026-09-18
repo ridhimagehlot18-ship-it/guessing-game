@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Guess Game</h1>
+            <p>How to play:
+                <ul>
+                    <li>You have 5 chances to guess the correct number.</li>
+                    <li>Please select the difficulty level:
+1. Easy (10 chances)
+2. Medium (5 chances)
+3. Hard (3 chances)</li>
+                    <li>if your guess is correct you win</li>
+                    <li>else guess again</li>
+                </ul>
+            </p>
+
+            <h3>Lets play</h3>
+            <input type="number" id="inp">
+            <select id="select"><option>Easy</option>
+            <option>Medium</option>
+            <option>Hard</option>
+            </select>
+            <button id="btn">Guess</button>
+            <p id="ans"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
