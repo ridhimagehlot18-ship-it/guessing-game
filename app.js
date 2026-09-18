@@ -2,7 +2,7 @@ let inp = document.getElementById("inp");
 let btn = document.getElementById("btn");
 let ans = document.getElementById("ans");
 let select = document.getElementById("select");
-let ranNum = Math.floor(Math.random()*10)+1;
+let ranNum = Math.floor(Math.random()*100)+1;
 
 btn.addEventListener("click",()=>{
     console.log(select.value);
